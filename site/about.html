@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CGE - Custom Google Classroom - About</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body class="bg-white dark:bg-gray-800">
+    <nav
+      class="flex justify-between items-center h-16 relative shadow-sm font-mono bg-white dark:bg-gray-800 text-black dark:text-white"
+      role="navigation"
+    >
+      <a href="index.html" class="pl-8 title">CGE</a>
+      <div class="px-4 cursor-pointer md:hidden" onclick="toggleNavbar('id01')">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="pr-8 md:block hidden" id="id01">
+        <a href="index.html" class="p-4">Install</a>
+        <a href="about.html" class="p-4 underline md:underline-none">About</a>
+        <a href="contact.html" class="p-4">Contact</a>
+      </div>
+    </nav>
+    <main class="bg-white dark:bg-gray-800">
+      <!--about page-->
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1
+              class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 dark:text-white"
+            >
+              About
+            </h1>
+            <p
+              class="lg:w-2/3 mx-auto leading-relaxed text-base dark:text-gray-300 text-gray-500"
+            >
+              CGE is a custom Google Chrome extension that makes Google
+              Classroom look like the new Google Classroom.
+            </p>
+            <p
+              class="lg:w-2/3 mx-auto leading-relaxed text-base dark:text-gray-100 text-gray-600 font-bold"
+            >
+              CGE was created by
+              <a href="https://github.com/babymonie/">MonkeeSHunkee</a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--contributors with theyre profile pictures with theyre roles and names-->
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1
+              class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 dark:text-white"
+            >
+              Contributors
+            </h1>
+            <p
+              class="lg:w-2/3 mx-auto leading-relaxed text-base dark:text-gray-300 text-gray-500"
+            >
+              CGE is a community project, and we are always looking for new
+              contributors. If you would like to contribute, please contact us
+              using the contact page.
+            </p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/3">
+              <div class="h-full flex flex-col items-center text-center">
+                <img
+                  alt="team"
+                  class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                  src="https://avatars.githubusercontent.com/u/62741287?s=400&u=829b6cbd906a58e6ed330b05139f68b2754a2827&v=4"
+                />
+                <div class="w-full">
+                  <h2
+                    class="title-font font-medium text-lg text-gray-900 dark:text-white ml-5"
+                  >
+                    MonkeeSHunkee
+                  </h2>
+                  <h3 class="text-gray-600 mb-3 font-bold dark:text-gray-100 ">Developer</h3>
+                  <span class="inline-flex bg-black dark:bg-blue-500 rounded justify-center items-center w-36 h-12 ml-3">
+                    <a
+                      class="text-gray-500 dark:text-white"
+                      href="https://github.com/babymonie/"
+                    >
+                    <i class="fab fa-github text-3xl"></i>
+                    </a>
+                    <a
+                      class="ml-2 text-gray-500 dark:text-white"
+                      href="https://twitter.com/heoffcialaloy"
+                    >
+                    <i class="fab fa-twitter text-3xl"></i>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-white h-16 dark:bg-gray-700 text-black dark:text-white">
+      <div class="flex justify-center py-4">
+        <h1 class="font-bold">Made with ❤️ by MonkeeShunkee</h1>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

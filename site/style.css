@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.title
+{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: bold;
+    font-family: "Retroica", cursive;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.socials
+{
+    margin-left: 300px;
+    margin-bottom: 130px;
+}
